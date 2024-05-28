@@ -55,7 +55,7 @@ if ($result->num_rows > 0) {
 
     echo "</table>";
 } else {
-    echo "No records found";
+    echo "Unable to fetch records";
 }
 
 $conn->close();
